@@ -1,0 +1,11 @@
+{
+  "required": false,
+  "package": "de.invscanner.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

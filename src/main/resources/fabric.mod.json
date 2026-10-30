@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "invscanner",
+  "version": "${version}",
+  "name": "Inv Scanner",
+  "description": "Durchsucht per /invsee im Hintergrund die Inventare aller Spieler nach Items und Mengen. Öffnen mit Ä.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["invscanner.mixins.json"],
+  "entrypoints": {
+    "client": ["de.invscanner.InvScannerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": ">=1.21.9 <1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
